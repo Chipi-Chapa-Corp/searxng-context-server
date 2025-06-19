@@ -27,7 +27,7 @@ type SearchWebResponse =
 	  };
 
 export async function searchWeb(query: string): Promise<SearchWebResponse> {
-	const uri = `${process.env.API_URL ?? ""}&q=${encodeURIComponent(query)}`;
+	const uri = `${process.env.API_URL ?? "/"}?format=json&q=${encodeURIComponent(query)}`;
 	try {
 		const request = await fetch(uri);
 		const response: SearchApiResponse = await request.json();

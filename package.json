@@ -1,6 +1,6 @@
 {
 	"name": "@chipi-chapa-corp/searxng-context-server",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "SearXNG Model Context Server",
 	"main": "dist/index.js",
 	"repository": "git@github.com:ExposedCat/barebone-ts.git",
